@@ -1,27 +1,59 @@
-# Needzaio
+<h1 align="center">Pet</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+<p align="center">
+  <img src="https://github.com/edwintrumpet/admission-needzaio/workflows/CI/badge.svg" alt="CI badge">
+  <img src="https://github.com/edwintrumpet/admission-needzaio/workflows/CD/badge.svg" alt="CD badge">
+  <img src="https://github.com/edwintrumpet/admission-needzaio/workflows/QA/badge.svg" alt="QA badge">
+  <img src="https://img.shields.io/github/commit-activity/m/edwintrumpet/admission-needzaio?logo=github" alt="commit activity badge">
+  <img src="https://img.shields.io/github/last-commit/edwintrumpet/admission-needzaio?logo=github" alt="last commit badge">
+</p>
 
-## Development server
+<p align="center">
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-plain.svg" alt="angular" width="40" height="40"/>
+  <img src="https://simpleicons.org/icons/githubactions.svg" alt="githubaxctions" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/jasmine/jasmine-plain-wordmark.svg" alt="jasmine" width="40" height="40"/>
+  <img src="https://devicons.github.io/devicon/devicon.git/icons/typescript/typescript-plain.svg" alt="typescript" width="40" height="40"/>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Angular app as a technical test at Needzaio
 
-## Code scaffolding
+Website http://needzaio-test-pets.s3-website-us-east-1.amazonaws.com/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Development
 
-## Build
+Scripts
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- **`npm i`** => Install dependencies
+- **`npm start`** => Run app in develop mode
+- **`npm run build`** => Build static files to production
+- **`npm run lint`** => Checkout linter errors
+- **`npm test`** => Run tests
 
-## Running unit tests
+To work in this project with the previous scripts execute the following instructions
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Install dependencies
+- Run app in develop mode
 
-## Running end-to-end tests
+## Deploy
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- staging website http://needzaio-qa-test-pets.s3-website-us-east-1.amazonaws.com/
+- production website http://needzaio-test-pets.s3-website-us-east-1.amazonaws.com/
 
-## Further help
+To deploy app in staging make a pull request to the staging branch.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To deploy app in production make a pull request to the master branch.
+
+To get production static files
+
+- Install dependencies
+- Build static files to production
+
+## Author
+
+Edwin García  
+spark.com.co@gmail.com
+
+## License
+
+[MIT](./LICENSE)

@@ -1,6 +1,7 @@
 {
   "name": "pet",
   "version": "0.0.0",
+  "description": "Angular app as a technical test at Needzaio",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
@@ -9,6 +10,18 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwintrumpet/admission-needzaio.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Edwin García <spark.com.co@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/edwintrumpet/admission-needzaio/issues"
+  },
+  "homepage": "https://github.com/edwintrumpet/admission-needzaio#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.1.2",
@@ -44,5 +57,6 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
-  }
+  },
+  "license": "MIT"
 }
